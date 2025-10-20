@@ -1,0 +1,22 @@
+# SD Turbo Server for TouchDesigner (macOS)
+# Python 3.9+ required
+
+# Core ML dependencies
+diffusers>=0.24.0
+transformers>=4.35.0
+accelerate>=0.25.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0,<2.0
+
+# Syphon for video I/O (macOS only)
+syphon-python>=0.1.0
+
+# OSC for control data
+python-osc>=1.8.0
+
+# PyMetal for Syphon Metal backend (macOS only)
+pyobjc-framework-Metal>=9.0
+pyobjc-framework-Quartz>=9.0

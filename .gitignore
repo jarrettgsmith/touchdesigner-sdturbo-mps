@@ -1,0 +1,23 @@
+# Python virtual environment
+venv_sdturbo/
+__pycache__/
+*.pyc
+
+# TouchDesigner backups and crash files
+Backup/
+CrashAutoSave.*
+*.backup.*
+
+# Model cache (large files)
+*.pt
+*.safetensors
+models/
+checkpoints/
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+
+# Logs
+*.log
